@@ -1,0 +1,94 @@
+Installation of pkgs
+Clean ups- tittle change, test bootstrap, clear out pre-built css
+
+set up the react router dom
+install react-router-dom
+setting pages (home{banner, surg}, about, error, surgical, contact, Testimonials, price list, appointment, faq)
+setting surgpages (body procedure, facial procedure, breast procedure, buttocks, skin care, coolsulpting)
+
+
+
+
+
+
+// {/* <div className="head container-fluid text-light py-3">
+      <div className="row">
+        <div className="col justify-content-start py-3">
+          <h2 className="fw-bold">CECM</h2>
+          <h4 className="text-info">SURGERY</h4>
+        </div>
+        <div className="col justify-content-center py-3">
+          <h4 className="justify-content-center text-center">CALL NOW:(914)206-2747</h4>
+        </div>
+        <div className="col py-3 text-end">
+        <a href="/appointment" className="btn btn-info text-white justify-content-end">MAKE AN APPOINTMENT</a>
+        </div>
+      </div>
+      </div> */}
+
+     {/* <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+         <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
+        <Navbar.Collapse id="basic-navbar-nav">
+       <Nav className="ms-4">
+              <Link to="/" className="text-decoration-none mx-2 p-2">HOME</Link>
+              <NavDropdown className="nav" title="SURGICAL PROCEDURES " id="basic-nav-dropdown">
+                <NavDropdown.Item className="align-center">
+                   <div className="wide">
+                     <div className="row">
+                        <div className="col">
+                        <Link to="/breastlift" className="text-info fw-bold">BREAST</Link><br/>
+                        <Link to="/augmentation" className="black">Breast Augmentation</Link><br/>
+                        <Link to="/reduction" className="black">Breast Reduction</Link><br/>
+                        <Link to="/breastlift" className="black">Breast Lift</Link><br/>
+                        <Link to="/reconstruction" className="black" >Breast Reconstruction</Link>
+                        </div>
+                        <div className="col">
+                        <Link to="/bcawl" className="text-info fw-bold">BODY Contouring</Link><br/>
+                        <Link to="/liposuction" className="black">Liposuction </Link><br/> 
+                        <Link to="/tummytuck" className="black">Tummy Tuck</Link><br/>
+                        <Link to="/buttockslift" className="black">Buttocks Lift</Link><br/>
+                        <Link to="/lowbodylift" className="black">Low Body Lift</Link><br/>
+                        <Link to="/bcawl" className="black">Body Contouring <br/> After Weight Loss</Link><br/>
+                        <Link to="/fatgrafting" className="black">Fat Grafting</Link><br/>
+                        <Link to="/armlift" className="black">Arm Lift</Link><br/>
+                        <Link to="/liabiaplasty" className="black">Labiaplasty</Link><br/>
+
+                        </div>
+                        <div className="col">
+                        <Link to="/facelift" className="text-info fw-bold">FACIAL SURGERIES</Link><br/>
+                        <Link to="/rhinoplasty" className="black">Rhinoplasty</Link><br/>
+                        <Link to="/eyelid" className="black">Eye lid or blepharoplasty</Link><br/>
+                        <Link to="/facelift" className="black">Face Lift</Link><br/>
+                        <Link to="/cleftlip" className="black">Cleft lip and palate</Link><br/>
+                        <Link to="/facialreconstruction" className="black">Facial Reconstruction</Link><br/>
+                        <Link to="/bichectomy" className="black">Bichectomy</Link><br/>
+                        <Link to="/otoplasty" className="black">Otoplasty</Link><br/>
+                        <Link to="/facialimplants" className="black">Facial implants</Link><br/>
+                        </div>
+                        <div className="col">
+                        <Link to="/" className="text-info fw-bold">FOR MEN</Link><br/>
+                        <Link to="/correction" className="black">Correction of Gynecomasty<br/>or male breast reduction</Link><br/>
+                        <Link to="/pectoralimplants" className="black">Pectoral implants</Link><br/>
+                        <Link to="/calvesimplants" className="black">Calves implants</Link><br/>
+                        <Link to="/buttockaugmentation" className="black">Buttock Augmentation</Link><br/>
+                        </div>
+
+                     </div>
+
+                   </div>
+                </NavDropdown.Item>
+            </NavDropdown>
+              <NavDropdown className="nav" title="PAGES " id="basic-nav-dropdown">
+              <NavDropdown.Item href="/about" className="text-primary">ABOUT</NavDropdown.Item>
+              <NavDropdown.Item href="/testimonials" className="text-primary">TESTIMONIALS</NavDropdown.Item>
+              <NavDropdown.Item href="/pricelist" className="text-primary">PRICING</NavDropdown.Item>
+            </NavDropdown>
+              <Link 
+                to="/contacts" className="text-decoration-none mx-2 p-2">CONTACTS</Link>
+              <Link 
+                to="/appointment" className="text-decoration-none mx-2 p-2">APPOINTMENTS</Link>
+          </Nav>
+        </Navbar.Collapse>
+        </Container>
+     </Navbar>  */}
