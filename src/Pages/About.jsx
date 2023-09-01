@@ -12,7 +12,7 @@ const About = () => {
     </div>
 
     
-        <div className="container-fluid-sm py-5 px-5 justify-content-center">
+        <div className="py-5 px-5 justify-content-center">
         <h5 className="text-info fw-bold fs-6">ABOUT OUR CLINIC</h5>
         <h1 className="fw-bold fs-4 mb-4">WELCOME TO THE NEWLOOK</h1>
         <hr className="text-warning border-2" />

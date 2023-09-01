@@ -5,37 +5,37 @@ const Surg = () => {
   return (
     <>
         <h2 className="pt-5 pb-3 ps-5 coltxt">What We Offer Cosmatic procedures</h2>
-        <div className="row px-5 mx-5">
-            <div className="col card">
+        <div className="row px-5">
+            <div className="col">
              <img src="https://webdesign-finder.com/lumenos/wp-content/uploads/2017/12/service_1-600x400.jpg" 
                   className="img-fluid"/>
-             <Link to="/lowbodylift" className="text-info fs-2 py-4 ms-4">Body</Link><br/>
+             <Link to="/lowbodylift" className="text-info fs-4 py-3">Body</Link><br/>
 
             </div>
 
-            <div className="col card">
+            <div className="col">
              <img src="https://webdesign-finder.com/lumenos/wp-content/uploads/2017/12/service_3-600x400.jpg" 
                   className="img-fluid"/>
-             <Link to="/augmentation" className="text-info fs-2 py-4 ms-4">Breast</Link><br/>
+             <Link to="/augmentation" className="text-info fs-4 py-3">Breast</Link><br/>
             </div>
 
-            <div className="col card">
+            <div className="col">
              <img src="https://webdesign-finder.com/lumenos/wp-content/uploads/2017/12/service_2-600x400.jpg" 
                   className="img-fluid"/>
-             <Link to="/facelift" className="text-info fs-2 py-4 ms-4">Facial Surgeries</Link><br/>
+             <Link to="/facelift" className="text-info fs-4 py-3">Facial Surgeries</Link><br/>
             </div>
 
-            <div className="col card">
+            <div className="col">
              <img src="https://www.medicalcosmeticsltd.co.uk/wp-content/uploads/2019/08/botox-and-dermal-fillers-male-cosmetic-procedures-scaled.jpg" 
-                  className="img"/>
-            <Link to="/correction" className="text-info fs-2 py-4 ms-4">For Men</Link><br/>
+                  className="img-fluid"/>
+            <Link to="/correction" className="text-info fs-3 py-3">For Men</Link><br/>
             </div>
 
         </div>
 
     
    
-        <div className="container-fluid-sm py-5 px-5 justify-content-center">
+        <div className="py-5 px-5 justify-content-center">
         <h5 className="text-info fw-bold fs-6">ABOUT OUR CLINIC</h5>
         <h1 className="fw-bold fs-4 mb-4">WELCOME TO THE NEWLOOK</h1>
         <hr className="text-warning border-2" />

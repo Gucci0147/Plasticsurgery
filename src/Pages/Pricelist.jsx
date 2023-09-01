@@ -9,14 +9,10 @@ const Pricelist = () => {
       <Link to="/" className="text-decoration-none text-white">HOME /</Link> <span className="text-warning"> PAGES / PRICING</span>
     </div>
 
-    <div className="row justify-content-xxl-center py-5 mx-5">
-    <div className="col card">
-      <div className="container">
-        <h3 className="text-center text-white bg-info fw-bold p-4 fs-4">BODY</h3>
-      </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+        <h3 className="text-white bg-info fw-bold p-4 fs-3">BODY</h3>
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
           Abdominoplasty (Tummy Tuck): $1,400 – $12,600 <br/>
           Belt Lipectomy (Body Lift): $14,630 <br/>
           Brachioplasty (Arm Lift): $7,750 <br/>
@@ -26,19 +22,13 @@ const Pricelist = () => {
           Fat Grafting: $1,450 - $5,465 <br/>
           Body Contouring: $3,550 - $9,740 <br/>
         </p>
-       
-     
-
       </div>
-    </div>
+    
 
-    <div className="col card">
-    <div className="container">
-      <h3 className="text-center text-white bg-info fw-bold p-4 fs-4">BREASTS</h3>
-    </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+      <h3 className="text-white bg-info fw-bold p-4 fs-3">BREASTS</h3>
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
           Breast Augmentation (saline): $4,215 - $6,530 <br/>
           Breast Augmentation (silicone): $7,250 <br/>
           Breast Reconstruction: $4,900 – $7,000 <br/>
@@ -46,15 +36,12 @@ const Pricelist = () => {
           Breast Reduction: $10,100 <br/>
         </p>
       </div>
-    </div>
+  
 
-    <div className="col card">
-    <div className="container">
-      <h3 className="text-center text-white bg-info fw-bold p-4 fs-4">FACIAL SURGERIES</h3>
-    </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+      <h3 className="text-white bg-info fw-bold p-4 fs-3">FACIAL SURGERIES</h3>
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
           Facelift and Necklift $9,850 / $3,650 – $5,200 <br/>
           Eyelid Surgery $3,750 – $6,400 <br/>
           Nose Surgery (Rhinoplasty) $6,400 – $10,250 <br/>
@@ -66,17 +53,17 @@ const Pricelist = () => {
 
         </p>
       </div>
-    </div>
-    </div>
+  
+    
 
-    <div className="row pt-4 mb-5 m-3 ">
-    <div className="col card">
-      <div className="container">
-        <h3 className="text-center text-white bg-info fw-bold p-4 fs-4">INJECTABLES</h3>
-        </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+   
+      
+        <h3 className="text-white bg-info fw-bold p-4 fs-3">INJECTABLES</h3>
+  
+      
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
           Botox $13 per unit <br/>
           Dysport $4 per unit <br/>
           Restalyne $585 per syringe <br/>
@@ -84,29 +71,27 @@ const Pricelist = () => {
           Sculptra $775 per vial  <br/>
         </p>
       </div>
-    </div>
+    
 
-    <div className="col card">
-    <div className="container">
-      <h3 className="text-center text-white bg-info fw-bold p-4 fs-4">FOR MEN</h3>
-    </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+    
+      <h3 className="text-white bg-info fw-bold p-4 fs-3">FOR MEN</h3>
+  
+      
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
           Male Breast Reduction:  $2,150 - $12,750 <br/>
           Pectoral implants: $3,170 - $15,500 <br/>
           Calves implants: $2,010 - $10,230 <br/>
         </p>
       </div>
-    </div>
 
-    <div className="col card">
-    <div className="container">
-      <h3 className="text-center text-white bg-info fw-bold p-2  fs-4">GENDER AFFIRMATION SURGERY</h3>
-    </div>
-      <div className="card-body text-center">
-        <h5 className="text-warning fs-4 fw-bold">PLASTIC SURGEON</h5>
-        <p className="card-text coltt fs-5">
+    <div className="text-center">
+    
+      <h3 className="text-white bg-info fw-bold p-4 fs-3">GENDER AFFIRMATION SURGERY</h3>
+  
+        <h5 className="text-warning fs-3 fw-bold">PLASTIC SURGEON</h5>
+        <p className="coltt fs-3">
          Female - Male; <br/>
          Gender Affirmation Surgery: $15,480 - $25,670 <br/>
          Chest Masculinization: $13,500 - $20,000 <br/>
@@ -115,8 +100,8 @@ const Pricelist = () => {
          Facial Feminization: $11,590 - 17,000  <br/>
         </p>
       </div>
-    </div>
-    </div>
+    
+    
   
       
    </>
