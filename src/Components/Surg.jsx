@@ -34,9 +34,8 @@ const Surg = () => {
         </div>
 
     
-     <div className="container-fluid-sm py-5 px-5">
-       <div className="row">
-        <div className="col justify-content-center">
+   
+        <div className="container-fluid-sm py-5 px-5 justify-content-center">
         <h5 className="text-info fw-bold fs-6">ABOUT OUR CLINIC</h5>
         <h1 className="fw-bold fs-4 mb-4">WELCOME TO THE NEWLOOK</h1>
         <hr className="text-warning border-2" />
@@ -53,13 +52,6 @@ const Surg = () => {
         </ul>
         </div>
 
-        <div className="col text-center">
-        <img src="https://webdesign-finder.com/lumenos/wp-content/uploads/2017/12/one_half-1-1.png"
-          alt="" />
-        </div>
-      </div>
-
-    </div>
 
     </>
   )

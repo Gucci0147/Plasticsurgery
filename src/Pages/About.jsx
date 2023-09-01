@@ -11,9 +11,8 @@ const About = () => {
       <Link to="/" className="text-decoration-none text-white">HOME /</Link> <span className="text-warning">ABOUT</span>
     </div>
 
-    <div className="container-fluid-sm py-5 px-5">
-      <div className="row">
-        <div className="col justify-content-center">
+    
+        <div className="container-fluid-sm py-5 px-5 justify-content-center">
         <h5 className="text-info fw-bold fs-6">ABOUT OUR CLINIC</h5>
         <h1 className="fw-bold fs-4 mb-4">WELCOME TO THE NEWLOOK</h1>
         <hr className="text-warning border-2" />
@@ -29,15 +28,8 @@ const About = () => {
           <li>Call us quickly: <span className="text-warning">+1 914-206-2747</span></li>
         </ul>
         </div>
-
-        <div className="col text-center">
-        <img src="https://webdesign-finder.com/lumenos/wp-content/uploads/2017/12/one_half-1-1.png"
-          alt="" />
-        </div>
-      </div>
-
-    </div>
-
+       
+  
   
    <div className="container-fluid bg-info-subtle py-5">
    <Carousel slide={true}>
