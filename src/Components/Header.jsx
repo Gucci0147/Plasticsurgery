@@ -105,11 +105,11 @@ const Header = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item className="text-info fs-5">
-                    <Link to="/pricing" className="text-info pt-4">Pricing</Link><br/>
+                    <Link to="/pricelist" className="text-info pt-4">Pricing</Link><br/>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item className="text-info fs-5">
-                    <Link to="/paymentmethod" className="text-info fw-bold pt-4">Payment Method</Link><br/>
+                    <Link to="/paymentmethod" className="text-info pt-4">Payment Method</Link><br/>
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
