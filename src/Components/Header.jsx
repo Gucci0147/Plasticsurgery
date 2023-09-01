@@ -100,16 +100,16 @@ const Header = () => {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                     className="text-primary fw-bold"
                   >
-                    <NavDropdown.Item href="/testimonials" className="text-info fs-5">
-                      Testimonials
+                    <NavDropdown.Item className="text-info fs-5">
+                      <Link to="/testimonials" className="text-info pt-4">Testimonials</Link><br/>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="/pricelist" className="text-info fs-5">
-                      Pricing
+                    <NavDropdown.Item className="text-info fs-5">
+                    <Link to="/pricing" className="text-info pt-4">Pricing</Link><br/>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="/paymentmethod" className="text-info fs-5">
-                      Payment Method
+                    <NavDropdown.Item className="text-info fs-5">
+                    <Link to="/paymentmethod" className="text-info fw-bold pt-4">Payment Method</Link><br/>
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
