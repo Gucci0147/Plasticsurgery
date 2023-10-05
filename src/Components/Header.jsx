@@ -29,7 +29,7 @@ const Header = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3 fs-4">
+                <Nav className="justify-content-end pe-3 fs-4">
                   <Link to="/" className="text-primary fw-bold">HOME</Link>
                   <Link to="/about" className="text-primary fw-bold">ABOUT</Link>
                   <Link to="/appointment" className="text-primary fw-bold">APPOINTMENT</Link>

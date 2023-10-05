@@ -4,7 +4,7 @@ import Surg from "../Components/Surg";
 
 const Home = () => {
   return (
-    <div className="stylebody bg-info-subtle`">
+    <div className="stylebody bg-info-subtle">
       <Banner />
       <Surg />
     </div>
